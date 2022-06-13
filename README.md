@@ -1,1 +1,1 @@
-# Mentalhealthpreciton
+# Mentalhealthprediction
