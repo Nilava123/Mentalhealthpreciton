@@ -5,7 +5,8 @@ import pickle
 import numpy as np
 import sklearn
 #from tensorflow import keras
-
+#Nilava Sarkar
+#horibol
 app = Flask(__name__)
 model = pickle.load(open('randomforest.pkl', 'rb'))
 @app.route('/',methods=['GET'])
