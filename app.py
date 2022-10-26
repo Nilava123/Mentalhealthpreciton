@@ -6,6 +6,7 @@ import numpy as np
 import sklearn
 #from tensorflow import keras
 #nilava Sarkar
+#this is app.py and it is implementing.....
 app = Flask(__name__)
 model = pickle.load(open('randomforest.pkl', 'rb'))
 @app.route('/',methods=['GET'])
