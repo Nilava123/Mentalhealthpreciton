@@ -26,6 +26,7 @@ def predict():
             Gender=0
         else:
             Gender=1
+        # hello
         
         ms = request.form['Marital status']
         if(ms=='Unmarried'):
