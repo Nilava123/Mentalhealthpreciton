@@ -5,7 +5,7 @@ import pickle
 import numpy as np
 import sklearn
 #from tensorflow import keras
-
+#nilava Sarkar
 app = Flask(__name__)
 model = pickle.load(open('randomforest.pkl', 'rb'))
 @app.route('/',methods=['GET'])
@@ -26,6 +26,7 @@ def predict():
             Gender=0
         else:
             Gender=1
+        # hello
         
         ms = request.form['Marital status']
         if(ms=='Unmarried'):
@@ -222,6 +223,6 @@ def predict():
     
 if __name__=="__main__":
     app.run(debug=True)
-    
 
-#bhag bhosdike
+
+# this too shall passs
